@@ -1,0 +1,309 @@
+﻿/*
+    Modern Web Programming
+    Homework 3 Ring Menu 
+    style.css
+    css for index.html
+    Made by Haswell
+    Copyright By Haswell © 2016 All Rights Reserved.
+    School of Data and Computer Science
+    Sun Yat-sen University
+    2016-09-24
+*/
+body {
+    width: 100%;
+    height: 100%;
+    font-weight: bold;
+    color: white;
+    font-family: "Courier New","Microsoft YaHei", sans-serif;
+}
+
+#at-plus-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 0px;
+}
+
+#bottom-positioner {
+    position: absolute;
+    width: 100%;
+    bottom: 100px;
+}
+
+li {
+    list-style-type: none;
+    text-align: center;
+}
+
+#button {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 50%;
+    bottom: 84px;
+    margin-left: -16px;
+    margin-top: -16px;
+    background: url(./assets/images/atplus_white.png) center no-repeat #9a9ece;
+    border-radius: 50%;
+    background-size: 28px 20px;
+    transition-delay: 0.55s;
+    transition-duration: 0.5s;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+    #button:hover {
+        width: 60px;
+        height: 60px;
+        left: 50%;
+        bottom: 70px;
+        margin-left: -30px;
+        margin-top: -30px;
+        background: url(./assets/images/atplus_green.png) center no-repeat rgba(48,63,159,1);
+        background-size: 51px 35px;
+        transition-delay: 0.1s;
+        transition-duration: 0.6s;
+    }
+
+.ul {
+}
+
+#info-bar {
+    transform: scale(0) translateY(0);
+    transition-delay: 0.1s;
+    transition-duration: 0.7s;
+    position: absolute;
+    display: table;
+    padding: 0;
+    border: 0;
+    border-radius: 50%;
+    background: #284098;
+    left: calc(50% - 64px);
+    top: calc(50% - 64px);
+    height: 128px;
+    width: 128px;
+    overflow: visible;
+    cursor: pointer;
+}
+
+    #info-bar.disabled {
+        background: #7E7E7E;
+        cursor: default;
+    }
+
+.info {
+    font-size: 30px;
+}
+
+#message, .info {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-weight: bold;
+    color: #59C193;
+}
+
+#message {
+    position: absolute;
+    top: -120px;
+    left: -55px;
+    width: 240px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#button:hover #info-bar {
+    opacity: 1;
+    z-index: 1;
+    transform: scale(1) translateY(-113px);
+}
+
+.page {
+    position: absolute;
+    width: 100%;
+    left: -3%;
+    top: 10%;
+}
+
+    .page span {
+        vertical-align: top;
+        margin-left: 12px;
+    }
+
+.user {
+    font-size: 22px;
+}
+
+    .user > img {
+        width: 25px;
+        height: 25px;
+    }
+
+.comment {
+    top: 32%;
+    left: -3%;
+    font-size: 40px;
+}
+
+    .comment > img {
+        width: 31px;
+        height: 30px;
+    }
+
+.mine {
+    vertical-align: top;
+    position: relative;
+    top: 86px;
+}
+
+    .mine > span {
+        vertical-align: top;
+        margin-left: 7px;
+        color: #079E6E;
+        font-size: 22px;
+    }
+
+    .mine > img {
+        width: 24px;
+        height: 24px;
+    }
+
+.posted {
+    right: 46px;
+}
+
+.like {
+    top: 58px;
+    left: 7px;
+}
+
+#control-ring-container {
+    width: 60px;
+    height: 60px;
+    z-index: 10;
+}
+
+#control-ring {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    left: 50%;
+    top: 50%;
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.button {
+    position: absolute;
+    opacity: 0;
+    width: 20px;
+    height: 20px;
+    left: -10px;
+    top: -10px;
+    margin-left: 0px;
+    margin-top: 0px;
+    background-color: rgba(48,63,159,1);
+    border-radius: 50%;
+    transition-delay: 0.1s;
+    transition-duration: 0.7s;
+    z-index: 1;
+    cursor: pointer;
+}
+
+    .button.disabled {
+        background-color: #686868;
+        cursor: default;
+    }
+
+#button:hover .button {
+    opacity: 1;
+    width: 40px;
+    height: 40px;
+    margin-left: 0px;
+    margin-top: 0px;
+    border-radius: 50%;
+}
+
+#button:hover .mask {
+    left: -94px;
+    top: -63px;
+    background-size: 22px, 22px;
+}
+
+#button:hover .history {
+    left: -105px;
+    top: -15px;
+    background-size: 22px, 22px;
+}
+
+#button:hover .message {
+    left: -87px;
+    top: 32px;
+    background-size: 22px, 22px;
+}
+
+#button:hover .setting {
+    left: -44px;
+    top: 61px;
+    background-size: 22px, 22px;
+}
+
+#button:hover .sign {
+    left: 8px;
+    top: 60px;
+    background-size: 22px, 22px;
+}
+
+#button:hover .number {
+    opacity: 1;
+    left: 24px;
+    top: -5px;
+    width: 18px;
+    height: 18px;
+    transition-delay: 0.1s;
+    transition-duration: 0.5s;
+}
+
+.number {
+    opacity: 0;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    width: 0px;
+    height: 0px;
+    border-radius: 50%;
+    line-height: 18px;
+    font-size: 11px;
+    background-color: red;
+    transition-delay: 0s;
+    transition-duration: 0s;
+}
+
+.apb {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 10px;
+    top: 10px;
+    z-index: 0;
+}
+
+#button:hover .apb {
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    left: -90px;
+    top: -60px;
+}
+
+.icon {
+    margin-left: 90px;
+    margin-top: 60px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    z-index: 10;
+}
