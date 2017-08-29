@@ -1,0 +1,426 @@
+﻿/*
+    Modern Web Programming
+    Homework 1 Recipe
+    index.css
+    css for index.html
+    made by Haswell and the WordPress's theme Optimizer
+    Copyright By Haswell © 2016 All Rights Reserved.
+    School of Data and Computer Science
+    Sun Yat-sen University
+    2016-09-11
+*/
+h1.content {
+	font-family: "Century Gothic","Futura","Verdana","sans-serif";
+	color: #A4A400;
+	letter-spacing: 0.2em;
+	text-align: center;
+	font-size: 36px;
+	font-weight: bold;
+}
+h1 {
+	letter-spacing: 0.05em;
+}
+p.validator {
+    text-align:right;
+}
+p.ul,.ul a {
+    font-family: 'Trebuchet MS', 'sans-serif';
+	text-align: left;
+	color: #000000;
+	font-size: 28px;
+	font-weight: normal;
+    text-decoration:underline;
+}
+
+img.wp-smiley, img.emoji {
+    display: inline !important;
+    border: none !important;
+    box-shadow: none !important;
+    height: 1em !important;
+    width: 1em !important;
+    margin: 0 .07em !important;
+    vertical-align: -0.1em !important;
+    background: none !important;
+    padding: 0 !important;
+}
+
+        /*Fixed Background*/
+
+        /*BOXED LAYOUT*/
+        .site_boxed .layer_wrapper, body.home.site_boxed #slidera {
+            width: 85%;
+            float: left;
+            margin: 0 7.5%;
+            background: #ffffff;
+        }
+
+        .site_boxed .stat_bg, .site_boxed .stat_bg_overlay {
+            width: 85%;
+        }
+
+        .site_boxed .social_buttons {
+            background: #ffffff;
+        }
+
+        .site_boxed .center {
+            width: 95%;
+            margin: 0 auto;
+        }
+
+        .site_boxed .head_top .center {
+            width: 95% !important;
+        }
+
+
+
+        /*Site Content Text Style*/
+        body, input, textarea {
+            font-family: Open Sans;
+            font-size: 16px;
+        }
+
+        .single_metainfo, .single_post .single_metainfo a, a:link, a:visited, .single_post_content .tabs li a {
+            color: #0a0a0a;
+        }
+
+
+        /*LINK COLOR*/
+        .org_comment a, .thn_post_wrap a:link, .thn_post_wrap a:visited, .lts_lightbox_content a:link, .lts_lightbox_content a:visited, .athor_desc a:link, .athor_desc a:visited {
+            color: #3590ea;
+        }
+
+            .org_comment a:hover, .thn_post_wrap a:link:hover, .lts_lightbox_content a:link:hover, .lts_lightbox_content a:visited:hover, .athor_desc a:link:hover, .athor_desc a:visited:hover {
+                color: #1e73be;
+            }
+
+        /*-----------------------------Static Slider Content box width------------------------------------*/
+        .stat_content_inner .center {
+            width: 86%;
+        }
+
+        .stat_content_inner {
+            bottom: 21%;
+            color: #ffffff;
+        }
+
+
+        /*STATIC SLIDE CTA BUTTONS COLORS*/
+        .static_cta1.cta_hollow, .static_cta1.cta_hollow_big {
+            background: transparent !important;
+            color: #ffffff;
+        }
+
+            .static_cta1.cta_flat, .static_cta1.cta_flat_big, .static_cta1.cta_rounded, .static_cta1.cta_rounded_big, .static_cta1.cta_hollow:hover, .static_cta1.cta_hollow_big:hover {
+                background: #36abfc !important;
+                color: #ffffff;
+                border-color: #36abfc !important;
+            }
+
+        .static_cta2.cta_hollow, .static_cta2.cta_hollow_big {
+            background: transparent;
+            color: #ffffff;
+        }
+
+            .static_cta2.cta_flat, .static_cta2.cta_flat_big, .static_cta2.cta_rounded, .static_cta2.cta_rounded_big, .static_cta2.cta_hollow:hover, .static_cta2.cta_hollow_big:hover {
+                background: #36abfc !important;
+                color: #ffffff;
+                border-color: #36abfc !important;
+            }
+
+
+        /*-----------------------------COLORS------------------------------------*/
+        /*Header Color*/
+        .header {
+            position: relative !important;
+            background: #f5f5f5;
+        }
+
+        .home.has_trans_header .header_wrap {
+            float: left;
+            position: relative;
+            width: 100%;
+        }
+
+        .home.has_trans_header .header {
+            position: absolute !important;
+            z-index: 999;
+        }
+
+
+        /*Boxed Header should have boxed width*/
+        body.home.site_boxed .header_wrap.layer_wrapper {
+            width: 85%;
+            float: left;
+            margin: 0 7.5%;
+        }
+
+        .home.has_trans_header .header, .home.has_trans_header.page.page-template-page-frontpage_template .header {
+            background: transparent !important;
+            background-image: none;
+        }
+
+        .home.has_trans_header.page .header {
+            background: #f5f5f5 !important;
+        }
+
+        @media screen and (max-width: 480px) {
+            .home.has_trans_header .header {
+                background: #f5f5f5 !important;
+            }
+        }
+
+
+
+        /*LOGO*/
+        .logo h2, .logo h1, .logo h2 a, .logo h1 a {
+            font-family: 'Oranienbaum';
+            color: #555555;
+        }
+
+        body.has_trans_header.home .header .logo h2, body.has_trans_header.home .header .logo h1, body.has_trans_header.home .header .logo h2 a, body.has_trans_header.home .header .logo h1 a, body.has_trans_header.home span.desc {
+            color: #fff;
+        }
+
+        #simple-menu {
+            color: #888888;
+        }
+
+        body.home.has_trans_header #simple-menu {
+            color: #fff;
+        }
+
+        span.desc {
+            color: #555555;
+        }
+
+        /*MENU Text Color*/
+        #topmenu ul li a {
+            color: #888888;
+        }
+
+        body.has_trans_header.home #topmenu ul li a, body.has_trans_header.home .head_soc .social_bookmarks.bookmark_simple a {
+            color: #fff;
+        }
+
+        #topmenu ul li.menu_hover a {
+            border-color: #ffffff;
+        }
+
+        #topmenu ul li.menu_hover > a, body.has_trans_header.home #topmenu ul li.menu_hover > a {
+            color: #ffffff;
+        }
+
+        #topmenu ul li.current-menu-item > a {
+            color: #3590ea;
+        }
+
+        #topmenu ul li ul {
+            border-color: #ffffff transparent transparent transparent;
+        }
+
+        #topmenu ul.menu > li:hover:after {
+            background-color: #ffffff;
+        }
+
+        #topmenu ul li ul li a:hover {
+            background: #36abfc;
+            color: #FFFFFF;
+        }
+
+        .head_soc .social_bookmarks a {
+            color: #888888;
+        }
+
+        .head_soc .social_bookmarks.bookmark_hexagon a:before {
+            border-bottom-color: rgba(136,136,136, 0.3) !important;
+        }
+
+        .head_soc .social_bookmarks.bookmark_hexagon a i {
+            background: rgba(136,136,136, 0.3) !important;
+        }
+
+        .head_soc .social_bookmarks.bookmark_hexagon a:after {
+            border-top-color: rgba(136,136,136, 0.3) !important;
+        }
+
+
+        /*BASE Color*/
+        .widget_border, .heading_border, #wp-calendar #today, .thn_post_wrap .more-link:hover, .moretag:hover, .search_term #searchsubmit, .error_msg #searchsubmit, #searchsubmit, .optimizer_pagenav a:hover, .nav-box a:hover .left_arro, .nav-box a:hover .right_arro, .pace .pace-progress, .homeposts_title .menu_border, .pad_menutitle, span.widget_border, .ast_login_widget #loginform #wp-submit, .prog_wrap, .lts_layout1 a.image, .lts_layout2 a.image, .lts_layout3 a.image, .rel_tab:hover .related_img, .wpcf7-submit, .woo-slider #post_slider li.sale .woo_sale, .nivoinner .slide_button_wrap .lts_button, #accordion .slide_button_wrap .lts_button, .img_hover, p.form-submit #submit, .optimposts .type-product a.button.add_to_cart_button {
+            background: #36abfc;
+        }
+
+        .share_active, .comm_auth a, .logged-in-as a, .citeping a, .lay3 h2 a:hover, .lay4 h2 a:hover, .lay5 .postitle a:hover, .nivo-caption p a, .acord_text p a, .org_comment a, .org_ping a, .contact_submit input:hover, .widget_calendar td a, .ast_biotxt a, .ast_bio .ast_biotxt h3, .lts_layout2 .listing-item h2 a:hover, .lts_layout3 .listing-item h2 a:hover, .lts_layout4 .listing-item h2 a:hover, .lts_layout5 .listing-item h2 a:hover, .rel_tab:hover .rel_hover, .post-password-form input[type~=submit], .bio_head h3, .blog_mo a:hover, .ast_navigation a:hover, .lts_layout4 .blog_mo a:hover {
+            color: #36abfc;
+        }
+
+        #home_widgets .widget .thn_wgt_tt, #sidebar .widget .thn_wgt_tt, #footer .widget .thn_wgt_tt, .astwt_iframe a, .ast_bio .ast_biotxt h3, .ast_bio .ast_biotxt a, .nav-box a span, .lay2 h2.postitle:hover a {
+            color: #36abfc;
+        }
+
+        .pace .pace-activity {
+            border-top-color: #36abfc !important;
+            border-left-color: #36abfc !important;
+        }
+
+        .pace .pace-progress-inner {
+            box-shadow: 0 0 10px #36abfc, 0 0 5px #36abfc;
+            -webkit-box-shadow: 0 0 10px #36abfc, 0 0 5px #36abfc;
+            -moz-box-shadow: 0 0 10px #36abfc, 0 0 5px #36abfc;
+        }
+
+        .fotorama__thumb-border, .ast_navigation a:hover {
+            border-color: #36abfc !important;
+        }
+
+
+        /*Text Color on BASE COLOR Element*/
+        .icon_round a, #wp-calendar #today, .moretag:hover, .search_term #searchsubmit, .error_msg #searchsubmit, .optimizer_pagenav a:hover, .ast_login_widget #loginform #wp-submit, #searchsubmit, .prog_wrap, .rel_tab .related_img i, .lay1 h2.postitle a, .nivoinner .slide_button_wrap .lts_button, #accordion .slide_button_wrap .lts_button, .lts_layout1 .icon_wrap a, .lts_layout2 .icon_wrap a, .lts_layout3 .icon_wrap a, .lts_layout1 .icon_wrap a:hover {
+            color: #FFFFFF;
+        }
+
+        .thn_post_wrap .listing-item .moretag:hover, body .lts_layout1 .listing-item .title, .lts_layout2 .img_wrap .optimizer_plus, .img_hover .icon_wrap a, body .thn_post_wrap .lts_layout1 .icon_wrap a, .wpcf7-submit, .woo-slider #post_slider li.sale .woo_sale, p.form-submit #submit, .optimposts .type-product a.button.add_to_cart_button {
+            color: #FFFFFF;
+        }
+
+
+
+
+        /*Sidebar Widget Background Color */
+        #sidebar .widget {
+            background: #FFFFFF;
+        }
+            /*Widget Title Color */
+            #sidebar .widget .widgettitle, #sidebar .widget .widgettitle a {
+                color: #0a0a0a;
+            }
+
+            #sidebar .widget li a, #sidebar .widget, #sidebar .widget .widget_wrap {
+                color: #0a0a0a;
+            }
+
+                #sidebar .widget .widgettitle, #sidebar .widget .widgettitle a {
+                    font-size: 20px;
+                }
+
+
+
+        #footer .widgets .widgettitle, #copyright a {
+            color: #ffffff;
+        }
+
+        /*FOOTER WIDGET COLORS*/
+        #footer {
+            background: #222222;
+        }
+
+            #footer .widgets .widget a, #footer .widgets {
+                color: #666666;
+            }
+        /*COPYRIGHT COLORS*/
+        #copyright {
+            background: #333333;
+        }
+
+            #copyright a, #copyright {
+                color: #b2b2b2;
+            }
+
+        .foot_soc .social_bookmarks a {
+            color: #b2b2b2;
+        }
+
+        .foot_soc .social_bookmarks.bookmark_hexagon a:before {
+            border-bottom-color: rgba(178,178,178, 0.3);
+        }
+
+        .foot_soc .social_bookmarks.bookmark_hexagon a i {
+            background: rgba(178,178,178, 0.3);
+        }
+
+        .foot_soc .social_bookmarks.bookmark_hexagon a:after {
+            border-top-color: rgba(178,178,178, 0.3);
+        }
+
+
+
+        /*-------------------------------------TYPOGRAPHY--------------------------------------*/
+
+
+
+        /*Body Text Color*/
+        body, .home_cat a, .contact_submit input, .comment-form-comment textarea {
+            color: #0a0a0a;
+        }
+
+        .single_post_content .tabs li a {
+            color: #0a0a0a;
+        }
+
+        .thn_post_wrap .listing-item .moretag {
+            color: #0a0a0a;
+        }
+
+
+
+        /*Post Title */
+        .postitle, .postitle a, .nav-box a, h3#comments, h3#comments_ping, .comment-reply-title, .related_h3, .nocomments, .lts_layout2 .listing-item h2 a, .lts_layout3 .listing-item h2 a, .lts_layout4 .listing-item h2 a, .author_inner h5, .product_title, .woocommerce-tabs h2, .related.products h2, .optimposts .type-product h2.postitle a, .woocommerce ul.products li.product h3 {
+            text-decoration: none;
+            color: #0a0a0a;
+        }
+
+        /*Woocommerce*/
+        .optimposts .type-product a.button.add_to_cart_button:hover {
+            background-color: #FFFFFF;
+            color: #36abfc;
+        }
+
+        .optimposts .lay2_wrap .type-product span.price, .optimposts .lay3_wrap .type-product span.price, .optimposts .lay4_wrap .type-product span.price, .optimposts .lay4_wrap .type-product a.button.add_to_cart_button {
+            color: #0a0a0a;
+        }
+
+        .optimposts .lay2_wrap .type-product a.button.add_to_cart_button:before, .optimposts .lay3_wrap .type-product a.button.add_to_cart_button:before {
+            color: #0a0a0a;
+        }
+
+.optimposts .lay2_wrap .type-product a.button.add_to_cart_button:hover:before, .optimposts .lay3_wrap .type-product a.button.add_to_cart_button:hover:before, .optimposts .lay4_wrap .type-product h2.postitle a {
+    color: #36abfc;
+}
+
+
+
+@media screen and (max-width: 480px) {
+    body.home.has_trans_header .header .logo h1 a {
+        color: #555555 !important;
+    }
+
+    body.home.has_trans_header .header #simple-menu {
+        color: #888888 !important;
+    }
+}
+/*!
+ *  Font Awesome 4.6.1 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ */
+/* FONT PATH
+ * -------------------------- */
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('https://www.asmodeus.cn/wp-content/themes/optimizer/assets/fonts/fontawesome/fontawesome-webfont.eot');
+  src: url('https://www.asmodeus.cn/wp-content/themes/optimizer/assets/fonts/fontawesome/fontawesome-webfont.svg#fontawesomeregular') format('svg'),
+  url('https://www.asmodeus.cn/wp-content/themes/optimizer/assets/fonts/fontawesome/fontawesome-webfont.eot?#iefix') format('embedded-opentype'), 
+  url('https://www.asmodeus.cn/wp-content/themes/optimizer/assets/fonts/fontawesome/fontawesome-webfont.woff') format('woff'), 
+  url('https://www.asmodeus.cn/wp-content/themes/optimizer/assets/fonts/fontawesome/fontawesome-webfont.woff2') format('woff2'), 
+  url('https://www.asmodeus.cn/wp-content/themes/optimizer/assets/fonts/fontawesome/fontawesome-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+i[class*='fa-']{
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  /*text-rendering: auto;*/
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
