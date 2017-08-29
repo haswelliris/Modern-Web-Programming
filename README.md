@@ -8,6 +8,4 @@
 Assignments for Modern Web Programming 2016  
 If there were some help, please star this repository. Thanks.  
 ***
-
-***
 ### 一个二个跑来看我答案还不点star的都是什么心态？
