@@ -1,4 +1,15 @@
-﻿var ans = new Array();
+﻿/*
+    Modern Web Programming
+    Homework 6
+    index.js
+    js for index.html
+    Made by Haswell
+    Copyright By Haswell © 2016 All Rights Reserved.
+    School of Data and Computer Science
+    Sun Yat-sen University
+    2016-10
+*/
+var ans = new Array();
 var puzzle = {
     changetimes: 50,
     wait_for_transition: 40,

@@ -1,3 +1,14 @@
+/*
+    Modern Web Programming
+    Homework 4
+    index.js
+    css for index.html
+    Made by Haswell
+    Copyright By Haswell © 2016 All Rights Reserved.
+    School of Data and Computer Science
+    Sun Yat-sen University
+    2016-10-04
+*/
 var CA = 0, CL = 0, show = "0";
 
 var main = [];
