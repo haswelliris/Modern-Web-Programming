@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>注册</title>
+    <meta charset="utf-8" />
+	<link href="style.css" type="text/css" rel="stylesheet" />
+	<script src="signin.js" type="text/javascript"></script>
+	<script src="jquery.js" type="text/javascript"></script>
+</head>
+<body>
+	<div id="main_content">
+		<h1>注册</h1>
+        <p>使用你的身份信息进行注册</p>
+		<form method="post" action="./signup">
+			<div class="form">
+				姓名：<input id="name" class="textfield" type="text" name="name" placeholder="请输入用户名" />
+			</div>
+			<div class="form">
+				学号：<input class="textfield" type="text" name="id" placeholder="请输入学号" />
+			</div>
+			<div class="form">
+				电话：<input class="textfield" type="text" name="tel" placeholder="请输入电话" />
+			</div>
+			<div class="form">
+				邮箱：<input class="textfield" type="text" name="email" placeholder="请输入邮箱" />
+			</div>
+			<div id="func" class="form">
+				<input id="reset" class="button" type="reset" name="reset" value="重置" />
+                <input id="submit" disabled="disabled" class="button" type="submit" name="submit" value="提交" />
+			</div>
+		</form>
+	</div>
+    <script></script>
+</body>
+</html>
