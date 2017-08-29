@@ -1,0 +1,177 @@
+﻿/*
+    Modern Web Programming
+    Homework 5
+    maze.css
+    css for maze.html
+    Made by Haswell
+    Copyright By Haswell © 2016 All Rights Reserved.
+    School of Data and Computer Science
+    Sun Yat-sen University
+    2016-10-16
+*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Century Gothic', sans-serif;
+}
+
+h1, h2 {
+    font-weight: normal;
+    text-align: center;
+    line-height: 30px;
+}
+
+#hint {
+    height: 30px;
+}
+
+h2.normal {
+    color: black;
+}
+
+h2.warning {
+    color: red;
+    transition-duration: 0.2s;
+    -webkit-transition-duration: 0.2s;
+}
+
+#maze {
+    position: relative;
+    width: 500px;
+    height: 300px;
+    margin: 20px auto;
+    cursor: default;
+}
+
+.wall, #wall_example {
+    background-color: #eeeeee;
+    transition-duration: 0.4s;
+    -webkit-transition-duration: 0.4s;
+}
+
+.wall_gameover {
+    background-color: #eeeeee;
+    transition-duration: 0.4s;
+    -webkit-transition-duration: 0.4s;
+}
+
+    .wall_gameover:hover {
+        background-color: red;
+        transition-delay: 0.1s;
+        transition-duration: 0.4s;
+        -webkit-transition-duration: 0.4s;
+    }
+
+#start, #end {
+    width: 40px;
+    height: 50px;
+    position: absolute;
+    z-index: 1;
+    cursor: pointer;
+}
+
+#start-button, #end-button {
+    top: 4px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    position: absolute;
+    line-height: 40px;
+    text-align: center;
+    font-family: Arial,sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+#start {
+    left: 0px;
+    bottom: 50px;
+}
+
+#start-button {
+    background-color: #92ff8c;
+}
+
+#end {
+    right: 0px;
+    bottom: 50px;
+}
+
+#end-button {
+    background-color: #897ffa;
+}
+
+#check {
+    width: 70px;
+    height: 70px;
+    right: 2px;
+    bottom: 40px;
+    position: absolute;
+    z-index: 0;
+    cursor: pointer;
+}
+
+#w1 {
+    width: 500px;
+    height: 50px;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    border: 1px solid black;
+    z-index: 0;
+}
+
+#w2 {
+    width: 150px;
+    height: 150px;
+    top: 50px;
+    left: 0px;
+    position: absolute;
+    border: 1px solid black;
+    border-top: none;
+    z-index: 1;
+}
+
+#w3 {
+    width: 150px;
+    height: 150px;
+    top: 50px;
+    left: 350px;
+    position: absolute;
+    border: 1px solid black;
+    border-top: none;
+    z-index: 1;
+}
+
+#w4 {
+    width: 100px;
+    height: 150px;
+    bottom: 50px;
+    left: 200px;
+    position: absolute;
+    border: 1px solid black;
+    border-bottom: none;
+    z-index: 1;
+}
+
+#w5 {
+    width: 500px;
+    height: 50px;
+    bottom: 0px;
+    left: 0px;
+    position: absolute;
+    border: 1px solid black;
+    z-index: 0;
+}
+
+#wall_example {
+    border: 1px solid black;
+    width: 100px;
+    height: 20px;
+    margin: auto;
+}
+
+#description {
+    margin: auto;
+    width: 600px;
+}

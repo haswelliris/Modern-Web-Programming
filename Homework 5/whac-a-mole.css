@@ -1,0 +1,105 @@
+﻿/*
+    Modern Web Programming
+    Homework 5
+    whac-a-mole.css
+    css for whac-a-mole.html
+    Made by Haswell
+    Copyright By Haswell © 2016 All Rights Reserved.
+    School of Data and Computer Science
+    Sun Yat-sen University
+    2016-10-16
+*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Century Gothic","Courier New",sans-serif;
+}
+
+#info {
+    width: 800px;
+    text-align: center;
+    margin: auto;
+}
+h1, h2 {
+    font-weight: normal;
+    text-align: center;
+    line-height: 40px;
+    margin-bottom:0px;
+}
+
+h2 {
+    line-height: 30px;
+    font-size: 18px;
+}
+
+ul {
+    display: inline-block;
+    list-style: none;
+    margin-top:0px;
+    padding:0;
+    position:relative;
+}
+
+    ul input {
+        margin-top: 5px;
+    }
+
+#control {
+    margin-right: 0px;
+    text-align: left;
+}
+
+#start_button {
+    font-size: 10pt;
+}
+
+#game-info {
+    width: 100px;
+    font-size: 10pt;
+    text-align: left;
+}
+
+
+#show {
+    width: 120px;
+    text-align: right;
+}
+
+    #show input {
+        width: 30px;
+        font-size: 10pt;
+    }
+
+#game-area {
+    width:800px;
+  
+    position: relative;
+    margin: auto;
+}
+#game_content {
+    width: 210px;
+    height: 120px;
+    cursor: default;
+    position: relative;
+    margin: auto;
+    margin-top:10px;
+    padding: 6px 0;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    text-align:center;
+}
+
+#description {
+    font-family:"Courier New",sans-serif;
+    width: 830px;
+    margin: 0 auto;
+    text-align:left;
+}
+#description p {
+    margin: 0;
+    margin-left:20px;
+}
+
+.mole {
+
+}
