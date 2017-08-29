@@ -1,0 +1,151 @@
+﻿/*
+    Modern Web Programming
+    Homework 1 Movie Review
+    movie.css
+    css for tmnt.html
+    Made by Haswell
+    Copyright By Haswell © 2016 All Rights Reserved.
+    School of Data and Computer Science
+    Sun Yat-sen University
+    2016-09-19
+*/
+body {
+    background-color: white;
+    font-size: 8pt;
+    font-family: Verdana, Tahoma,sans-serif;
+    background-image: url(./images/background.png);
+    background-repeat: repeat;
+    background-attachment: local;
+    padding: 0;
+    margin: 0;
+}
+
+.topBar {
+    background-image: url(./images/bannerbackground.png);
+    background-clip: padding-box;
+    background-repeat: repeat-x;
+    background-attachment: local;
+    height: 50px;
+    background-size: auto 50px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    position: center;
+    font-size: 24pt;
+    font-weight: bold;
+    font-family: Tahoma, Verdana,sans-serif;
+}
+
+.content {
+    width: 800px;
+    border: 4px solid gray;
+    margin: 0 auto;
+}
+
+.w3c {
+    bottom: 0;
+    right: 0;
+    position: fixed;
+}
+
+.w3c img {
+    border: none;
+}
+
+.content_inner {
+    overflow: hidden;
+}
+
+.main_content {
+    width: 550px;
+    overflow: hidden;
+}
+
+.content_right {
+    float: right;
+    width: 250px;
+    background-color: #A2B964;
+    font-size: 8pt;
+}
+
+.content_center {
+    background-image: url(./images/rottenbackground.png);
+    background-clip: padding-box;
+    background-repeat: repeat-x;
+    background-attachment: local;
+    height: 83px;
+    text-align: left;
+    vertical-align: bottom;
+}
+
+#i32 {
+    font-size: 48pt;
+    font-weight: bold;
+    color: red;
+    vertical-align: text-bottom;
+}
+
+#i88 {
+    font-size: 8pt;
+    font-weight: normal;
+    color: white;
+}
+
+.content_left img, .content_left_inner img {
+    margin-right: 5px;
+    float: left;
+}
+
+.content_left, .content_left_inner {
+    position: relative;
+    float: left;
+    width: 47%;
+    margin-left: 2%;
+    margin-top: 0px;
+}
+
+p.reviewer {
+    margin: auto auto 3em auto;
+    overflow: auto;
+}
+
+p.reviews {
+    font-size: 8pt;
+    font-weight: bold;
+    background-color: #E1D697;
+    border: 2px solid gray;
+    padding: 8px;
+    overflow: auto;
+}
+
+.pulication {
+    font-style: italic;
+}
+
+p.reviews q {
+    margin-left: 5px;
+}
+
+dl {
+    padding: 0;
+    margin: 10px;
+    font-family:Arial,sans-serif;
+    font-size:8pt;
+}
+
+dt {
+    font-weight: bold;
+    margin-top: 1em;
+}
+
+.content_bottom {
+    background-color: #A2B964;
+}
+
+#bottom {
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+}
