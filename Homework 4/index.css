@@ -1,0 +1,103 @@
+/*
+    Modern Web Programming
+    Homework 4
+    index.css
+    css for index.html
+    Made by Haswell
+    Copyright By Haswell © 2016 All Rights Reserved.
+    School of Data and Computer Science
+    Sun Yat-sen University
+    2016-10-04
+*/
+body {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: #000000;
+    background-color: white;
+    font: 20px Verdana, Arial, Helvetica, sans-serif;
+    font-weight:bolder;
+    background-image: url("./images/background.png");
+}
+
+.calculate {
+    top: 80px;
+    left: 50%;
+    margin-left: -200px;
+    margin-bottom: 80px;
+    position: absolute;
+    width: 400px;
+    height: 510px;
+    border: 1px solid #42acfb;
+}
+
+.screen {
+    width: 400px;
+    height: 180px;
+    background-color: #F4F4F4;
+}
+.screen p {
+    margin:0;
+    padding:20px 0;
+    text-align:center;
+    font-size:20px;
+    font-family:'微软雅黑', 'Arial Narrow', Arial, sans-serif;
+}
+#showcontent {
+    line-height: 24px;
+    margin: 0px auto 10px auto;
+    font-size: 36px;
+    color: #777777;
+}
+#lastcontent {
+    line-height: 20px;
+    margin: 10px auto 0px auto;
+    font-size: 24px;
+    color: #999999;
+}
+.sshow {
+    width: 360px;
+    height: 40px;
+    padding: 4px;
+    border: none;
+    direction: ltr;
+    text-align: right;
+    background-color:#F4F4F4;
+}
+.advance, .advance button {
+    background-color: #EEEEEE;
+}
+
+.normal {
+    background-color: #E4E4E4;
+}
+.numb {
+    
+    font-weight:bold;
+}
+button {
+    font-size:18px;
+    outline:none;
+    width: 80px;
+    height: 66px;
+    background-color: #E4E4E4;
+    margin-left: -4px;
+    margin-right: -4px;
+    padding: 0px;
+    border: 0;
+    transition: 0.4s;
+    transition-delay: 0.1s;
+}
+
+    button:hover {
+        background-color: #D0D0D0;
+        transition: 0.1s;
+    }
+
+    button:active {
+        background-color: #B0B0B0;
+    }
+
+#equa:active {
+    background-color: #4596D2;
+}
