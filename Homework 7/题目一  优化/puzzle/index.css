@@ -1,0 +1,115 @@
+﻿body {
+    display: block;
+    margin: 0;
+    padding: 0;
+    font-family: '微软雅黑', sans-serif;
+}
+
+#header h1 {
+    font-weight: normal;
+    text-align: center;
+    line-height: 50px;
+}
+
+#info {
+    width: 320px;
+    height: 30px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+    #info div, #control .button {
+        float: left;
+        margin: 5px;
+        height: 20px;
+        width: 150px;
+        text-align: center;
+    }
+
+div {
+    display: block;
+}
+
+
+#puzzle_content {
+    width: 320px;
+    height: 320px;
+    user-select: none;
+    margin: auto;
+    position: relative;
+    box-shadow: 0 0 3px black;
+    background-color: #dcdcdc;
+}
+
+.puzzle_block {
+    position: absolute;
+    width: 25%;
+    height: 25%;
+    line-height: 48px;
+    text-align: center;
+    user-select: none;
+    transition-duration: 0.3s;
+}
+
+.puzzle_block_hover:hover {
+    box-shadow: 0 0 8px black;
+    z-index: 1;
+}
+
+.puzzle_row_0 {
+    top: 0%;
+}
+
+.puzzle_row_1 {
+    top: 25%;
+}
+
+.puzzle_row_2 {
+    top: 50%;
+}
+
+.puzzle_row_3 {
+    top: 75%;
+}
+
+.puzzle_col_0 {
+    left: 0%;
+}
+
+.puzzle_col_1 {
+    left: 25%;
+}
+
+.puzzle_col_2 {
+    left: 50%;
+}
+
+.puzzle_col_3 {
+    left: 75%;
+}
+
+#p15 {
+    display: none;
+}
+
+#control {
+    margin: auto;
+    margin-top: 10px;
+    width: 320px;
+}
+
+.button {
+    background-color: #dcdcdc;
+    border-radius: 10px;
+    color: red;
+    cursor: pointer;
+    line-height: 20px;
+}
+
+    .button:hover {
+        background-color: #a9a9a9;
+    }
+
+    .button:active {
+        background-color: #a0a0a0;
+    }

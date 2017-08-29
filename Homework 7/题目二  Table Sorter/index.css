@@ -1,0 +1,49 @@
+body {
+    font-family: 'Arial', 'Times New Roman', 'Courier New', sans-serif;
+}
+
+table, th, td {
+    border-width: 1px;
+    border-color: #bdbfcc;
+    border-style: solid;
+    padding: 4px 25px 4px 6px;
+}
+
+table {
+    font-family: Arial;
+    border-collapse: collapse;
+}
+
+th {
+    user-select: none;
+    cursor: pointer;
+    color: white;
+    background-color: #031a7f;
+    text-align: left;
+}
+
+td {
+    padding-right: 6px;
+}
+
+th.sort_ascend, th.sort_descend {
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: #a4aefc;
+}
+
+th.sort_ascend {
+    background-image: url("images/ascend.png");
+}
+
+th.sort_descend {
+    background-image: url("images/descend.png");
+}
+
+tbody tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: white;
+}
