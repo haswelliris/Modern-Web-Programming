@@ -1,0 +1,1 @@
+SET DEBUG=signin:* & npm start

@@ -1,0 +1,43 @@
+﻿doctype html
+html
+    head
+        meta(charset='utf-8')
+        link(rel='stylesheet', href=cssLink)
+        link(rel='stylesheet', href=bootstrapLink)
+        script(type='application/javascript',src=jqueryLink)
+        script(type='application/javascript',src=validatorJsLink)
+        script(type='application/javascript',src=jsLink)
+        script(type='application/javascript',src=md5Link)
+        title= pageTitle
+        link(rel = 'icon', href = '/favicon.ico')
+    body
+        div#form-box
+            h1= formTitle
+            form
+                div.input-box
+                    p.input-title= usernameTitle
+                    input.input-inactive(name='username')
+                    p.error-label.error-hide.error-inactive= usernameErrorMsg
+                div.input-box
+                    p.input-title= passwordTitle
+                    input.input-inactive(name='password',type='password')
+                    p.error-label.error-hide.error-inactive= passwordErrorMsg
+                div.input-box
+                    p.input-title= confirmPasswordTitle
+                    input.input-inactive(name='confirm_password',type='password')
+                    p.error-label.error-hide.error-inactive= confirmPasswordErrorMsg
+                div.input-box
+                    p.input-title= idTitle
+                    input.input-inactive(name='id')
+                    p.error-label.error-hide.error-inactive= idErrorMsg
+                div.input-box
+                    p.input-title= phoneTitle
+                    input.input-inactive(name='phone')
+                    p.error-label.error-hide.error-inactive= phoneErrorMsg
+                div.input-box
+                    p.input-title= emailTitle
+                    input.input-inactive(name='email')
+                    p.error-label.error-hide.error-inactive= emailErrorMsg
+                div.submit-box
+                    p: a(title=signInTitle,href!=signInLink)= signInTitle
+                    input.input-inactive(type='submit',value=submitTitle)

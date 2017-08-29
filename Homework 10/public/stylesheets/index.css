@@ -1,0 +1,121 @@
+body {
+    background-color: black;
+    font-family: "微软雅黑",sans-serif;
+    background-image: url("../images/bg.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size:100%;
+}
+
+h1 {
+    color: black;
+    font-size: 24px;
+    width: inherit;
+    text-align: right;
+}
+
+#form-box {
+    width:265px;
+    margin-left:40%;
+    margin-top: 5%;
+    margin-right: 35%;
+}
+
+.input-box {
+    height: 72px;
+}
+
+.input-box p {
+    color: black;
+    margin-top: 6px;
+    margin-bottom: 3px;
+}
+
+.input-box input {
+    background-color: white;
+    display: block;
+    width: 265px;
+    height: 30px;
+    padding: 0 3px 0 3px;
+    z-index: 10;
+    line-height: 24px;
+    color: black;
+    font-weight: bold;
+    font-family: "微软雅黑", sans-serif;
+}
+
+.submit-box {
+    height: 72px;
+    text-align: right;
+}
+
+.submit-box p {
+    margin-bottom: 6px;
+}
+
+.submit-box a {
+    text-decoration: none;
+    color: black;
+}
+.submit-box a:hover {
+    text-decoration: none;
+}
+
+.submit-box input {
+    display: inline-block;
+    width: 108px;
+    height: 30px;
+    padding: 0;
+    font-size: 18px;
+    font-weight: bolder;
+    font-family: "微软雅黑", sans-serif;
+    transition-property: background-color,border;
+    transition-duration: 600ms;
+}
+
+.input-inactive {
+    border: 3px solid lightgray;
+}
+
+.input-active {
+    border: 3px solid lightgray;
+}
+
+.submit-inactive {
+    border: 3px solid lightgray;
+    background-color: lightgray;
+}
+
+.submit-active {
+    border: 3px solid #bbbbbb;
+    background-color: #b8b8b8;
+}
+
+.input-box .error-label {
+    margin: -3px 0 0 0;
+    width: inherit;
+    color: black;
+    padding-left: 6px;
+    transition-property: background-color,height;
+    transition-duration: 600ms;
+}
+
+.error-inactive {
+    background-color: lightgray;
+}
+
+.error-active {
+    background-color: lightgray;
+}
+
+.error-hide {
+    font-size: 0;
+    height: 3px;
+    line-height: 3px;
+}
+
+.error-show {
+    font-size: 12px;
+    height: 24px;
+    line-height: 24px;
+}

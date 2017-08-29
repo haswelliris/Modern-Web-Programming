@@ -1,0 +1,27 @@
+﻿doctype html
+html
+    head
+        meta(charset='utf-8')
+        link(rel='stylesheet', href=cssLink)
+        link(rel='stylesheet', href=bootstrapLink)
+        script(type='application/javascript',src=jqueryLink)
+        script(type='application/javascript',src=validatorJsLink)
+        script(type='application/javascript',src=jsLink)
+        script(type='application/javascript',src=md5Link)
+        title= pageTitle
+        link(rel='icon', href='/favicon.ico')
+    body
+        div#form-box
+            h1= formTitle
+            form
+                div.input-box
+                    p.input-title= usernameTitle
+                    input#username-input.input-inactive(name='username')
+                    p.error-label.error-hide.error-inactive= usernameErrorMsg
+                div.input-box
+                    p.input-title= passwordTitle
+                    input.input-inactive(name='password',type='password')
+                    p.error-label.error-hide.error-inactive= passwordErrorMsg
+                div.submit-box
+                    p: a(title=registerTitle,href!=registerLink)= registerTitle
+                    input.input-inactive(type='submit',value=submitTitle)
